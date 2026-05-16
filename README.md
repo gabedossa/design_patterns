@@ -99,7 +99,6 @@ design_patterns/
 │                       ├── catalog/
 │                       │   └── CarCatalog.java   # Singleton — catálogo de carros
 │                       └── Main.java             # Demonstração do padrão
-├── pom.xml
 └── README.md
 ```
 
@@ -157,28 +156,9 @@ design_patterns/
 
 ## Como Executar
 
-### Pré-requisitos
+### Pré-requisito
 
 - Java 17+
-- Maven 3.8+
-
-### Rodando com Maven
-
-```bash
-# Compilar o projeto
-mvn compile
-
-# Executar a aplicação
-mvn exec:java -Dexec.mainClass="com.designpatterns.singleton.Main"
-
-# Gerar o JAR
-mvn package
-
-# Executar o JAR gerado
-java -jar target/design-patterns-java-1.0.0.jar
-```
-
-### Rodando sem Maven (compilação manual)
 
 ```bash
 # Compilar
@@ -204,7 +184,7 @@ java -cp out com.designpatterns.singleton.Main
 
 ## Tecnologias
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk)
+![Java](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk)
 
 ---
 
