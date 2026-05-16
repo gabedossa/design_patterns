@@ -205,7 +205,6 @@ java -cp out com.designpatterns.singleton.Main
 ## Tecnologias
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk)
-![Maven](https://img.shields.io/badge/Maven-3.8+-C71A36?style=flat-square&logo=apachemaven)
 
 ---
 
